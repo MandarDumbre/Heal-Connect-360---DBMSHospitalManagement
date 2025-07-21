@@ -1,0 +1,14 @@
+# hms_backend/requirements.txt
+fastapi==0.111.0
+uvicorn==0.30.1
+sqlalchemy==2.0.30
+pydantic==2.7.4
+# For JWT Authentication
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+# For PostgreSQL database driver (choose one):
+# psycopg2-binary==2.9.9
+# If you plan to use async SQLAlchemy with asyncpg (more advanced):
+# asyncpg==0.29.0
+# For SQLite (used in demo, usually included with Python but good to list if specific version needed):
+# aiosqlite==0.20.0 # If using async SQLite
